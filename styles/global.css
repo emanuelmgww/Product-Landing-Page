@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --brand-color-primary: #F7B733;
+    --brand-color-secondary: #FC4A1A;
+    --background-color: #09090B;
+    --surface-color: #18181B;
+    --stroke-color: #27272A;
+    --text-color-secondary: #A1A1AA;
+    --text-color-primary: #F4F4F5;
+    --gradient-color: linear-gradient(90deg, #F7B733, #FC4A1A);
+
+    --font-family: "Inter", sans-serif;
+
+    --h1-font-size: 64px;
+    --h1-line-height: 120%;
+    --h1-font-weight: 800;
+
+    --h2-font-size: 48px;
+    --h2-line-height: 120%;
+    --h2-font-weight: 800;
+
+    --h3-font-size: 32px;
+    --h3-line-height: 120%;
+    --h3-font-weight: 800;
+
+    --span-font-size: 14px;
+    --span-line-height: 100%;
+    --span-font-weight: 500;
+
+    --p-font-size: 16px;
+    --p-line-height: 160%;
+    --p-font-weight: 400;
+
+}
+    
+@media (min-width: 375px) and (max-width: 768px) {
+    :root {
+        --h1-font-size: 40px;
+        --h1-line-height: 120%;
+        --h1-font-weight: 800;
+
+        --h2-font-size: 24px;
+        --h2-line-height: 120%;
+        --h2-font-weight: 800;
+
+        --h3-font-size: 20px;
+        --h3-line-height: 120%;
+        --h3-font-weight: 800;
+
+        --span-font-size: 14px;
+        --span-line-height: 100%;
+        --span-font-weight: 500;
+
+        --p-font-size: 16px;
+        --p-line-height: 160%;
+        --p-font-weight: 400;
+    }
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+    line-height: var(--h1-line-height);
+    font-weight: var(--h1-font-weight);
+}
+
+h2 {
+    font-size: var(--h2-font-size);
+    line-height: var(--h2-line-height);
+    font-weight: var(--h2-font-weight);
+}
+
+h3 {
+    font-size: var(--h3-font-size);
+    line-height: var(--h3-line-height);
+    font-weight: var(--h3-font-weight);
+}
+
+h1, h2, h3 {
+    color: var(--text-color-primary);
+}
+
+span {
+    font-size: var(--span-font-size);
+    line-height: var(--span-line-height);
+    font-weight: var(--span-font-weight);
+}
+
+p {
+    font-size: var(--p-font-size);
+    line-height: var(--p-line-height);
+    font-weight: var(--p-font-weight);
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--font-family);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color-primary);
+}
+
+span {
+    color: var(--brand-color-primary);
+}

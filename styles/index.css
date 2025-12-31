@@ -1,0 +1,31 @@
+@import "global.css";
+@import "utilities.css";
+
+body {
+    height: 100dvh;
+    padding: 1.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.nav-list {
+    display: none;
+}
+
+.logo {
+    font-family: "Paytone One", sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.btn-primary {
+    background-color: var(--text-color-primary);
+    padding:  .8rem 1rem;
+    border-radius: 8px;
+    color: var(--background-color);
+}
