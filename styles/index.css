@@ -33,7 +33,7 @@ nav {
 }
 
 .hero img {
-    width: clamp(200px, 40vw, 400px);
+    width: clamp(250px, 60vw, 450px);
     height: auto;
 }
 
