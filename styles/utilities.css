@@ -1,0 +1,20 @@
+.btn-primary {
+    background-color: var(--text-color-primary);
+    padding:  .8rem 1rem;
+    border-radius: 8px;
+    color: var(--background-color);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    padding:  .8rem 1rem;
+    border-radius: 8px;
+    color: var(--text-color-primary);
+    border: 2px solid var(--text-color-primary);
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
