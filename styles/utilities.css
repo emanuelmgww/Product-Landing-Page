@@ -1,8 +1,12 @@
 .btn-primary {
     background-color: var(--text-color-primary);
-    padding:  .8rem 1rem;
+    padding: .8rem 1rem;
     border-radius: 8px;
     color: var(--background-color);
+}
+
+.btn-primary-active:active {
+    background: var(--gradient-color);
 }
 
 .btn-secondary {
@@ -13,8 +17,29 @@
     border: 2px solid var(--text-color-primary);
 }
 
-.flex-center {
+.btn-secondary-active:active {
+    color: var(--background-color);
+    background: var(--gradient-color) border-box;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+.flex-column-center {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+e  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo a:active {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
