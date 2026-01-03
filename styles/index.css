@@ -103,3 +103,94 @@ nav {
     flex-direction: column;
     gap: 0.5rem;
 }
+
+.princings {
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.princings .heading {
+    gap: 1rem;
+}
+
+.princings .card {
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    background-color: var(--surface-color);
+}
+
+.princings .card .text {
+    text-align: start;
+    margin-bottom: 2rem;
+    gap: 4px;
+}
+
+.card .princing {
+    text-align: start;
+    margin-bottom: 1.5rem;
+}
+
+.card .princing span {
+    color: var(--text-color-secondary);
+    padding-left: 4px;
+}
+
+.content .button {
+    background-color: var(--surface-color);
+    padding: .8rem 1rem;
+    border-radius: 8px;
+    color: var(--text-color-primary);
+    border: 2px solid var(--text-color-primary);
+    text-align: center;
+}
+
+.content .line {
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.features-card .features-list {
+    gap: 1rem;
+    text-align: start;
+}
+
+.features-card .features-list .features-item {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+}
+
+.princing-premium {
+    position: relative;
+    border-radius: 1.5rem;
+    background: linear-gradient(var(--surface-color), var(--surface-color)) padding-box,
+                var(--gradient-color) border-box;
+    border: 2px solid transparent;
+}
+
+.princing-premium .badge {
+    position: absolute;
+    padding: 0.8rem 1rem;
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 24px;
+    border-top-left-radius: 18px;
+    background: var(--gradient-color);
+    text-align: center;
+    font-weight: 500;
+}
+
+.princing-premium .text {
+    margin-top: 2.5rem;
+}
+
+.princing-family .features-card {
+    margin-bottom: 1.5rem;
+}
+
+.princing-family {
+    text-align: start;
+}
