@@ -64,3 +64,11 @@ a {
     text-decoration: none;
     color: var(--text-color-primary);
 }
+
+ul {
+    list-style: none;
+}
+
+small {
+    color: var(--text-color-secondary);
+}
