@@ -176,8 +176,8 @@ nav {
     padding: 0.8rem 1rem;
     top: 0;
     left: 0;
-    border-bottom-right-radius: 24px;
-    border-top-left-radius: 18px;
+    border-bottom-right-radius: 1.5rem;
+    border-top-left-radius: 1.285rem;
     background: var(--gradient-color);
     text-align: center;
     font-weight: 500;
@@ -229,4 +229,62 @@ nav {
 
 .card .downloads a img {
     display: block;
+}
+
+footer {
+    padding: 3rem;
+    padding-bottom: 2rem;
+    gap: 3rem;
+}
+
+.footer-card {
+    gap: 3rem;
+}
+
+.footer-card .navigation {
+    gap: 4rem;
+}
+
+.navigation a:active {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navigation .card {
+    gap: 1rem;
+}
+
+.navigation .card a {
+    color: var(--text-color-secondary);
+    width: fit-content;
+}
+
+.footer-botom {
+    gap: 1rem;
+}
+
+.social-media {
+    gap: 1.5rem;
+    width: fit-content;
+}
+
+.social-media .icon {
+    color: var(--text-color-secondary);
+}
+
+.social-media .icon svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    height: 1.5rem;
+    fill: currentColor;
+}
+
+.icon-path {
+    fill: var(--text-color-secondary);
+}
+
+.icon:hover .icon-path,
+.icon:active .icon-path {
+  fill: url(#grad-hover);
 }
