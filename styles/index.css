@@ -291,11 +291,14 @@ footer {
 
 @media (min-width: 768px) {
 
+    .ellipse-wrapper {
+        margin-top: -5rem;
+    }
+    
     .about {
         display: flex;
         flex-direction: row-reverse;
         gap: 1rem;
-
     }
 
     .btn {
@@ -342,3 +345,4 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
