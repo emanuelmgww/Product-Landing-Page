@@ -293,6 +293,14 @@ footer {
 }
 
 @media (min-width: 768px) {
+
+    .about {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 2.5rem;
+        gap: 1rem;
+    }
+
     .btn {
         width: 8.75rem;
         height: 3.75rem;
