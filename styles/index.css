@@ -25,7 +25,6 @@ nav {
 
 .hero {
     text-align: center;
-    margin-bottom: 6rem;
     padding-top: 2rem;
 }
 
@@ -55,14 +54,12 @@ nav {
     gap: 1rem;
 }
 
-.ellipse {
-    position: absolute;
+.ellipse-wrapper .ellipse {
+    position: relative;
     z-index: -1;
     width: 100%;
-    margin-top: -3rem;
-    filter: drop-shadow(0 20px 80px var(--brand-color-primary))
-            drop-shadow(0 10px 40px var(--brand-color-secondary));
-    border-radius: 20px;
+    display: block;
+    height: fit-content;
 }
 
 .about {
@@ -297,8 +294,8 @@ footer {
     .about {
         display: flex;
         flex-direction: row-reverse;
-        padding-top: 2.5rem;
         gap: 1rem;
+
     }
 
     .btn {
