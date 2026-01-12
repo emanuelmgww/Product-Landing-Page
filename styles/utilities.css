@@ -67,3 +67,23 @@ e  {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.show-lg {
+    display: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .show-lg {
+    display: block;
+  }
+}
+
+.show-xl {
+    display: none;
+}
+
+@media (min-width: 1440px) {
+  .show-xl {
+    display: block;
+  }
+}
