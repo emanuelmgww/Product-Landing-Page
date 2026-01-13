@@ -210,7 +210,7 @@ nav {
     background-color: var(--surface-color);
     background-image: url("../assets/images/rapaz-ouvindo-musica-com-fones-de-ouvido-e-cantando-no-aplicativo-de-karaoke-removebg\ 1.png");
     background-position: right bottom;
-    background-size: clamp(11rem, 38vw + 1rem, 22rem);
+    background-size: clamp(11rem, 30vw + 1rem, 23rem);
     background-repeat: no-repeat;
 }
 
@@ -469,6 +469,60 @@ footer {
     .show-lg {
         filter: drop-shadow(0 12px 30px rgba(0, 0, 0, 0.25));
     }
+}
 
+@media (min-width: 1440px) {
+
+    .features .card {
+        padding: 2rem 1.5rem;
+    }
+
+    .princing-card .card {
+        padding: 2rem;
+    }
+
+      .ellipse-wrapper {
+        margin-top: -6rem;
+    }  
+
+    .card-2 .show-xl {
+        position: absolute;
+        top: 1.5rem;
+        right: 3rem;
+    }
+
+    .card-4 .show-xl,
+    .card-5 .show-xl {
+        right: 3rem;
+    }
+
+    .card-2 .text,
+    .card-4 .text,
+    .card-5 .text {
+        width: 65%;
+    }
+    
+    .card-2 img.show-xl {
+        width: 11rem;
+    }
+
+    .princing-card .princing-family .text{
+        margin-bottom: 2.7rem;
+    }
+
+    .download .downloads {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .download .card {
+        padding: 7.5rem 5rem;
+        display: flex;
+        gap: 2.5rem;
+    }
+
+    .download .card {
+        background-position: right 5% bottom;
+    }
 }
 
