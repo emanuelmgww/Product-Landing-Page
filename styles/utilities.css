@@ -72,7 +72,7 @@ e  {
     display: none;
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) {
   .show-lg {
     display: block;
   }
