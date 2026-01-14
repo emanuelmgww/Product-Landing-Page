@@ -472,7 +472,7 @@ footer {
     }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 1120px) {
     .card-2 .show-xl {
         display: block;
         position: absolute;
