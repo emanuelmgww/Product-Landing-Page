@@ -472,6 +472,24 @@ footer {
     }
 }
 
+@media (min-width: 1220px) {
+    .card-2 .show-xl {
+        display: block;
+        position: absolute;
+        top: 1.5rem;
+        right: 1.5rem;
+        filter: drop-shadow(0 12px 30px rgba(0, 0, 0, 0.25));
+    }
+
+    .card-2 img.show-xl {
+        width: 11rem;
+    }
+
+    .card-2 .text {
+        width: 55%;
+    }
+}
+
 @media (min-width: 1440px) {
 
     .features .card {
